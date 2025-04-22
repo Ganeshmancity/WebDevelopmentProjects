@@ -1,0 +1,12 @@
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+h1 {
+  color: rgb(103, 38, 255);
+}
+h2 {
+  background-color: blue;
+}
+p span {
+  font-size: 200%;
+}

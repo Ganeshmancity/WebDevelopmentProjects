@@ -1,0 +1,86 @@
+body {
+  font-family: sans-serif;
+  color: green;
+}
+
+.main {
+  color: aqua;
+}
+.special {
+  color: rgb(239, 12, 12);
+}
+.my-class-1 a {
+  all: inherit;
+}
+.my-class-2 a {
+  all: initial;
+}
+.my-class-3 a {
+  all: unset;
+}
+/* a {
+  color: red;
+} */
+blockquote {
+  background-color: orange;
+  border: 2px solid blue;
+  color: brown;
+}
+.fix-this {
+  background-color: initial;
+  border: initial;
+}
+/* background-color: initial;
+  border: initial; */
+/* all: unset; */
+
+#outer a {
+  background-color: red;
+}
+#outer #inner a {
+  background-color: blue;
+}
+#outer div ul li a {
+  color: yellow;
+}
+#outer div ul .nav a {
+  color: white;
+}
+div div li:nth-child(2) a:hover {
+  border: 10px solid black;
+}
+div li:nth-child(2) a:hover {
+  border: 10px dashed black;
+}
+div div .nav:nth-child(2) a:hover {
+  border: 10px double black;
+}
+
+a {
+  display: inline-block;
+  line-height: 40px;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  width: 200px;
+  margin-bottom: 10px;
+}
+/* ul {
+  padding: 0;
+} */
+li {
+  list-style-type: none;
+}
+
+.better {
+  color: white;
+  background-color: gray;
+  padding: 2px;
+  border: 2px solid rgb(255, 75, 9) !important;
+}
+#winning {
+  color: antiquewhite;
+  background-color: red;
+  padding: 3px;
+  border: 1px solid black;
+}

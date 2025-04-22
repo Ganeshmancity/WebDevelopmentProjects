@@ -1,0 +1,59 @@
+body {
+  background-color: pink;
+}
+
+@media (min-width: 30em) {
+  body {
+    background-color: rgb(194, 194, 194);
+  }
+}
+h1 {
+  color: red;
+}
+/* p + p {
+  font-size: 200%;
+} */
+.special {
+  color: orange;
+  font-weight: bold;
+}
+li em {
+  color: aqua;
+}
+p em {
+  color: chartreuse;
+}
+/* p span {
+  color: red;
+} */
+/* h1 + p {
+  color: black;
+} */
+a:link {
+  color: rgb(149, 219, 45);
+}
+h1 + p + p {
+  color: darkslategray;
+}
+h1 + p .special {
+  color: yellow;
+  background-color: black;
+  padding: 5px;
+}
+.outer {
+  border: 5px solid black;
+}
+.box {
+  padding: 4px;
+  width: calc(90% - 20px);
+
+  background-color: rebeccapurple;
+  color: white;
+}
+.box-play {
+  margin: 30px;
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
+  transform: rotate(0.8turn);
+}

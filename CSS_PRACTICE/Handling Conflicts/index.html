@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <ul class="main">
+      <li>Item One</li>
+      <li>
+        Item Two
+        <ul>
+          <li>
+            2.1
+            <ul>
+              <li>2.1</li>
+              <li>2.2</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+      <li>
+        Item Three
+        <ul class="special">
+          <li>
+            3.1
+            <ul>
+              <li>3.1.1</li>
+              <li>3.1.2</li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <ul>
+      <li>Default <a href="#">link</a>color</li>
+      <li class="my-class-1">Inherit the <a href="#">link</a>color</li>
+      <li class="my-class-2">Reset the <a href="#">link</a>color</li>
+      <li class="my-class-3">Unset the <a href="#">link</a>color</li>
+    </ul>
+    <blockquote>
+      <p>This blockquote is styled</p>
+    </blockquote>
+    <blockquote class="fix-this">
+      <p>This blockquote is not styled</p>
+    </blockquote>
+    <div class="container" id="outer">
+      <div class="conatiner" id="inner">
+        <ul>
+          <li class="nav"><a href="#">One</a></li>
+          <li class="nav"><a href="#">Two</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="better">This is a paragraph</p>
+    <p class="better" id="winning">One selector to rule them all</p>
+  </body>
+</html>

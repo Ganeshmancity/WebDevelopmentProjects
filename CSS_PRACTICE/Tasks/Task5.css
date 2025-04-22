@@ -1,0 +1,34 @@
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  /* margin: 0 0 0.5em 0; */
+  margin-bottom: 0.5em;
+}
+a {
+  display: block;
+  padding: 0.5em;
+}
+a {
+  border: 4px solid grey;
+}
+/* a[href="https://arish.com"]
+{
+  border: 4px solid rgb(38, 218, 15);
+} */
+/* Targeting starting with https using ^= */
+a[href^="https"] {
+  border: 4px solid rgb(15, 237, 15);
+}
+a[title] {
+  border: 3 px solid pink;
+  border-color: pink;
+}
+a[href*="contact"] {
+  border: 4px solid orange;
+}

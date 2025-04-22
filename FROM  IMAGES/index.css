@@ -1,0 +1,6 @@
+p {
+  background-image: url("example-page.png");
+}
+p img {
+  max-width: 20%;
+}

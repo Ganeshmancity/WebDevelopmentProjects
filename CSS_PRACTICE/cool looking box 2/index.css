@@ -1,0 +1,27 @@
+html {
+  font-family: sans-serif;
+}
+
+div {
+  width: 300px;
+  margin: auto;
+  line-height: 8;
+
+  font-size: 1.1rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(200, 0, 0);
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to bottom left,
+    rgba(0, 0, 0, 0) 10%,
+    rgba(0, 0, 0, 0.2) 50%,
+    rgba(224, 49, 49, 0) 90%
+  );
+  box-shadow:
+    2px 2px 3px rgba(0, 0, 0, 0.6),
+    inset -4px -3px 5px rgba(255, 255, 255, 0.5),
+    inset -4px -4px 6px rgba(0, 0, 0, 0.5);
+}

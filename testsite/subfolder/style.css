@@ -1,0 +1,62 @@
+html{
+    font-size: 10px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #bfc2ca;
+}
+h1{
+    font-size: 60px;
+    text-align: center;
+}
+p,li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+body{
+  width: 600px;
+  margin: 0 auto; 
+    /* in margin first value  affects top and bottom side and second value affects the left and rigthside  */
+  background-color: #eb9412;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;
+  }
+  img {
+   display: block;
+   margin: 0 auto;
+   max-width: 100%;
+   height: auto;
+   width: 190px;
+  }
+  h2{
+    font-size: 20px;
+
+  }
+  h3{
+    font-size: 18px;
+  }
+  h4{
+    font-size: 15px;
+  }
+  /* a,button{
+    display: block;
+  } */
+  .container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  a, button {
+    font-size: 12px; /* Adjust text size */
+    padding: 5px 5px; /* Control padding for a smaller button/link */
+    width: 100px; /* Prevent stretching to full width */
+    text-align: center; /* Align text in the center */
+    /* border: 1px solid #ccc;  /*Optional: Add a border */
+    /* border-radius: 1px; Optional: Rounded corners */ 
+  
+  }

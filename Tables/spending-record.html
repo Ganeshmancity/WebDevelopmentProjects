@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>My spending record</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <style>
+      tbody {
+        font-size: 95%;
+        font-style: italic;
+      }
+
+      tfoot {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>My spending record</h1>
+
+    <table>
+      <caption>
+        How i chose to spend my money
+      </caption>
+      <!-- <thead>
+        <tr>
+          <th scope="col">Purchase</th>
+          <th scope="col">Location</th>
+          <th scope="col ">Date</th>
+          <th scope="col">Evaluation</th>
+          <th scope="col">Cost(€)</th>
+        </tr>
+      </thead> -->
+
+      <thead>
+        <tr>
+          <th colspan="3" scope="colgroup">Clothes</th>
+        </tr>
+        <tr>
+          <th scope="col">Trousers</th>
+          <th scope="col">Skirts</th>
+          <th scope="col">Dresses</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th rowspan="4" scope="rowgroup">Belgium</th>
+          <th scope="row">Bangkok</th>
+        </tr>
+        <tr>
+          <th scope="row">Antwerp</th>
+        </tr>
+        <tr>
+          <th scope="row">Gent</th>
+        </tr>
+        <tr>
+          <th scope="row">Brussels</th>
+        </tr>
+        <!-- <tr>
+          <th scope="row">Haircut</th>
+          <td>Hairdesser</td>
+          <td>12/09</td>
+          <td>Great idea</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>Lasagna</td>
+          <td>Restaurant</td>
+          <td>12/09</td>
+          <td>Regrets</td>
+          <td>18</td>
+        </tr>
+        <tr>
+          <td>Shoes</td>
+          <td>Shoeshop</td>
+          <td>13/09</td>
+          <td>Big regrets</td>
+          <td>65</td>
+        </tr>
+        <tr>
+          <td>Toothpaste</td>
+          <td>Supermarket</td>
+          <td>13/09</td>
+          <td>Good</td>
+          <td>5</td>
+        </tr> -->
+      </tbody>
+      <tfoot>
+        <th colspan="4">Sum</th>
+        <td>118</td>
+      </tfoot>
+    </table>
+  </body>
+</html>

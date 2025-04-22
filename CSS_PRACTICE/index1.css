@@ -1,0 +1,13 @@
+h1 {
+  color: red;
+  font-size: 2;
+}
+h2 {
+  color: purple;
+  font-size: 1;
+}
+p {
+  color: azure;
+  background-color: blue;
+  padding: 5;
+}

@@ -1,0 +1,28 @@
+p {
+  color: black;
+  /* text-decoration: underline; */
+  font-family: Helvetica, Verdana, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  /* text-transform: full-width; */
+  text-shadow:
+    4px 4px 5px red,
+    3px 2px 1px white;
+  /*horizontal offset: Positive value moves the shawdow right and negative values moves the lefft side */
+  text-align: justify;
+  line-height: 1.8;
+}
+h1 {
+  text-shadow:
+    -1px -1px 1px #555,
+    -2px -2px 1px #666;
+  /* text-align: justify; */
+}
+p::first-line {
+  letter-spacing: 4px;
+  word-spacing: 4px;
+}
+p::selection {
+  color: red;
+  background-color: yellow;
+}

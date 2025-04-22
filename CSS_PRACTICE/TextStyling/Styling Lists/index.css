@@ -1,0 +1,48 @@
+/* General Styles */
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 10px;
+}
+h2 {
+  font-size: 2rem;
+}
+ul,
+ol,
+dl,
+p {
+  font-size: 1.5rem;
+}
+li,
+p {
+  line-height: 2.5;
+}
+/* Description list styles */
+dd,
+dt {
+  line-height: 1.5;
+}
+dt {
+  font-weight: bold;
+}
+ul {
+  list-style-type: disc;
+}
+ol {
+  list-style-type: upper-roman;
+  list-style-position: outside;
+}
+ol {
+  padding-left: 2rem;
+  list-style-type: none;
+}
+ol li {
+  padding-left: 3rem;
+  background: url("star.svg") 2px 3px no-repeat;
+  background-size: 1.6rem 1.6rem;
+
+  /* Background size : first value is width and second value is height */
+}
+ul {
+  list-style: square url("sthar.svg");
+  /*  In above code square is acting as fall back for image .if it is not displayed it will */
+}

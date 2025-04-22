@@ -1,0 +1,18 @@
+/* .container {
+  all: initial;
+} */
+#outer div ul .nav a {
+  background-color: powderblue;
+  padding: 5px;
+  color: blue;
+  display: inline-block;
+
+  margin: 10px;
+}
+div div li a {
+  color: rebeccapurple;
+}
+#outer #inner a {
+  background-color: initial;
+  color: hotpink;
+}

@@ -1,0 +1,109 @@
+@font-face {
+  font-family: bellefair;
+  src: url(bellefair/Bellefair-Regular.otf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin: 0 auto;
+  font-family: "bellefair";
+  line-height: 1.6;
+}
+@font-face {
+  font-family: "zantrokeregular";
+  src:
+    url("webfontkit-20250410-111311/zantroke-webfont.woff2") format("woff2"),
+    url("webfontkit-20250410-111311/zantroke-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+h1 {
+  text-align: center;
+}
+h1,
+h2 {
+  font-family: "zantrokeregular", "serif";
+  letter-spacing: 1px;
+}
+h2 + p {
+  text-indent: 20px;
+}
+a {
+  color: orange;
+  outline: none;
+}
+ul,
+ol {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.middlearticle ol li {
+  list-style-type: square;
+  padding: 2px;
+}
+.middlearticle ol li a:visited {
+  color: rgb(25, 222, 170);
+}
+.middlearticle ol li a:hover {
+  color: deeppink;
+  text-decoration: none;
+}
+.middlearticle ol li a:active {
+  background-color: chartreuse;
+}
+section .firstarticle {
+  width: 1200px;
+  /* height: 300px; */
+}
+
+section {
+  display: flex;
+  padding: 16px;
+}
+
+aside nav ul {
+  margin-top: 20px;
+}
+
+aside nav li {
+  list-style: none;
+  border: 2px solid burlywood;
+  padding-left: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 20px;
+  margin: 20px;
+  color: brown;
+}
+aside nav li a {
+  display: inline-block;
+  color: orangered;
+}
+aside nav li a:visited {
+  color: black;
+}
+aside nav li a:hover {
+  color: green;
+  text-decoration: none;
+}
+span a::after {
+  content: "";
+  display: inline-block;
+  background:
+    url("icons8-external-link-26.png") 100% 0 / 16px 16px no-repeat,
+    linear-gradient(to right, rgba(255, 255, 255, 0.8), rgba(255, 2, 244, 0.5))
+      0 0 / cover no-repeat;
+  /* background-size:
+    16px 16px,
+    cover; */
+  width: 20px;
+  height: 20px;
+
+  padding-right: 5px;
+  margin-left: 5px;
+}
+footer,
+header {
+  border-bottom: 5px solid red;
+  border-top: 5px solid red;
+}

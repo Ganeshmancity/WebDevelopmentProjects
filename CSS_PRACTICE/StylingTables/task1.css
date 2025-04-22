@@ -1,0 +1,9 @@
+table {
+  table-layout: fixed;
+  width: 100;
+  border-collapse: collapse;
+  /* border-top: ; */
+}
+tfoot td:nth-child(2) {
+  text-align: left;
+}

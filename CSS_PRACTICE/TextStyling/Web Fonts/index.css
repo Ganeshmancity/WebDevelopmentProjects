@@ -1,0 +1,51 @@
+h1,
+h2 {
+  font-family: "National Park", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bellefair";
+  src: url("bellefair/Bellefair-Regular.otf") format("truetype");
+}
+@font-face {
+  font-family: "zantrokeregular";
+  src:
+    url("webfontkit-20250410-111311/zantroke-webfont.woff2") format("woff2"),
+    url("webfontkit-20250410-111311/zantroke-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  font-size: 10px;
+  margin: 0;
+  font-family: "Bellefair", sans-serif;
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+/* h1,
+h2 {
+  font-family: "zantrokeregular", serif;
+  letter-spacing: 0.2rem;
+} */
+p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  word-spacing: 0.6rem;
+}

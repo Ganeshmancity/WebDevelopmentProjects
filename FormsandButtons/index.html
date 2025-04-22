@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- links can be used to navigate to different sections of content   -->
+    <button>Press me</button>
+    <form action="./submit_page" method="get">
+      <h2>Subscribe to our newsletter</h2>
+      <p>
+        <label for="name">Name(required):</label>
+        <input type="text" value="Bob ,gani" name="name" id="name" required />
+      </p>
+      <p>
+        <label for="email">Email (required):</label>
+        <input type="email" name="email" id="email" required />
+      </p>
+      <p>
+        <label
+          >Name(required):
+          <input type="text" name="name" required />
+        </label>
+      </p>
+      <p>
+       <button type="button"> 
+      </p>
+      <p><input type="radio" /></p>
+      <p><button>Sign me up</button></p>
+    </form>
+<form action="./payment_page" method="get">
+ <p>
+<fieldset >
+  <legend>Choose hotelroom types to attend</legend>
+  <div>
+    <input type="radio" id="hotelchoice1" name="hotel" value="economy"  >
+    <label for="hotelchoice1">Economy(+$0)</label>
+    <input type="radio" id="hotelchoice2" name="hotel" value="superior">
+    <label for="hotelchoice2" >Superior(+$50)</label>
+    <input type="radio" id="hotelchoice3" name="hotel" value="penthhouse " >
+    <label for="hotelchoice3">Penthhouse(+$150)</label>
+  </div>
+</fieldset>
+ </p>
+<p>
+  <fieldset>
+    <legend>Choose classes to attend</legend>
+    <div>
+      <input type="checkbox" id="yoga1" name="yoga" value="">
+      <label for="yoga1">Yoga(+10)</label>
+      <input type="checkbox" id="coffe1" name="coffe roasting" value="">
+      <label for="coffe1">coffe roasting(+$20)</label>
+      <input type="checkbox" id="Ballon" name="Ballon animal art" value="">
+      <label for="Ballon"> Ballon animal art(+$5)</label>
+    </div>
+  </fieldset>
+</p>
+    <p>
+      <label for="transport">Select your dropdown menu:</label>
+      <select name="transport" id="transport">
+        <option value="walk" selected>Walk</option>
+        <option value="run">Run</option>
+        <option value="Swim">Swim</option>
+      </select>
+    </p>
+<p>
+  <label for="comments">Any other comments:</label>
+  <textarea></textarea>
+</p> 
+    <p><button>Continue to payment</button></p>
+  
+</form>
+<form>
+  <!-- Below input elements have attribute "checked" -->
+  <input type="radio" 
+         name="check" 
+         value="1" >
+  Selected by default<br>
+  <input type="radio" 
+         name="check" 
+         value="2">
+  Not selected by default<br>
+</form>
+    <script src="index.js"></script>
+  </body>
+</html>

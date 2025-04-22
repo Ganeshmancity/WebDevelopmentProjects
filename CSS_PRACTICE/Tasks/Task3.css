@@ -1,0 +1,40 @@
+/* body {
+  font: 1.2em / 1.5 sans-serif;
+}
+article :first-child::first-line {
+  color: crimson;
+  font-size: 150%;
+}
+p a {
+  color: green;
+}
+p a:hover {
+  text-decoration: none;
+}
+.two {
+  color: #333;
+}
+/* .black {
+  background-color: #333;
+  /* border: #333; */
+/* }  */
+.container p:first-child {
+  font-size: 150%;
+}
+.container p:first-child::first-line {
+  color: crimson;
+}
+p a {
+  color: green;
+}
+a:focus {
+  color: pink;
+}
+a:hover {
+  text-decoration: none;
+}
+
+tr:nth-child(even) {
+  background-color: #e0e0e0;
+  color: blue;
+}

@@ -1,0 +1,27 @@
+body {
+  font: 1.2em / 1.5 sans-serif;
+}
+h2 + p {
+  color: red;
+}
+/* .list > li {
+  list-style: none;
+  border-bottom: 1 px solid #ccc;
+} */
+
+/* border-bottom-color: azure; */
+/* border-bottom: 1 px solid #ccc; */
+/* }  */
+
+/* h2 + p {
+  color: red;
+} */
+
+/* .list > li {
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+} */
+.list > li {
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+}

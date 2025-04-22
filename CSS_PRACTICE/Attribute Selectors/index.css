@@ -1,0 +1,84 @@
+body {
+  font-family: sans-serif;
+}
+/* Code for Attribute presence and value selcetors */
+/* li[class] {
+  font-size: 120%;
+}
+li[class="a"] {
+  background-color: yellow;
+}
+li[class~="a"] {
+  color: red;
+}
+li[class|="ab"] {
+  color: darkmagenta;
+} */
+/* Code for Attribute substring matching selectors */
+a[href="https://example.com"]
+{
+  color: rgb(113, 43, 226);
+}
+a[title] {
+  color: aqua;
+  text-decoration: none;
+}
+a[title]:hover {
+  color: darkgreen;
+}
+li[class^="a"] {
+  font-size: 120%;
+}
+li[class$="a"] {
+  background-color: yellow;
+}
+li[class*="a"] {
+  color: rgb(0, 255, 4);
+}
+a:link,
+a:visited {
+  color: rebeccapurple;
+  font-weight: bold;
+}
+
+a:hover {
+  color: hotpink;
+}
+a:focus {
+  color: rgb(255, 0, 0);
+}
+/* article p::first-line {
+  font-size: 120%;
+  font-weight: bold;
+} */
+article p:first-child::first-line {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+.box::after {
+  content: " ➥";
+}
+.box::after {
+  content: " this should show before the other ";
+}
+.box::before {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: rebeccapurple;
+  border: 1px solid black;
+}
+ul > li {
+  border-bottom: 5px solid red;
+}
+/* h1 ~ p {
+  font-weight: sans-serif;
+  background-color: #333;
+  color: #fff;
+  padding: 0.5em;
+} */
+ul > li[class="a"] {
+  color: rgb(24, 220, 20);
+}
